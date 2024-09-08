@@ -1,0 +1,533 @@
+h1, h2, h3, h4{
+  font-weight: 600 !important;
+}
+h5, h6{
+  font-weight: 500 !important;
+}
+
+.landing-page.sitebuilder .nav-tabs > li > a,
+.landing-page.sitebuilder .features .title,
+.landing-page.sitebuilder .templates .previews .tplname,
+.landing-page.sitebuilder .pricing-table-row .col-plans-5,
+.landing-page.sitebuilder .faq-title,
+.landing-page .navbar .navbar-nav > li > a,
+.landing-page.ssl .competitive-upgrade-promo,
+.landing-page.cpanelseo .feature-tabs .nav-tabs > li > a,
+.landing-page.ox .features p.title,
+.landing-page.ox .pricing .pricing-label,
+.landing-page .content-block.pricing .btn-group button.btn,
+.landing-page .pricing-item .price,
+.landing-page .get-started .price,
+.landing-page .content-block.tabs .nav-tabs li a,
+.landing-page.codeguard .pricing-container .price,
+.landing-page.marketgoo .feature-blocks .block span,
+.landing-page.sitelock .emergency .price{
+  font-family: var(--font-family-monospace);
+}
+
+.landing-page.sitebuilder .nav-tabs > li > a,
+.landing-page.sitebuilder .features .title,
+.landing-page.sitebuilder .templates .previews .tplname,
+.landing-page.sitebuilder .faq-title,
+.landing-page .navbar .navbar-nav > li > a,
+.landing-page.ssl .competitive-upgrade-promo,
+.landing-page .content-block.pricing .btn-group button.btn,
+.landing-page .pricing-item .price,
+.landing-page .get-started .price,
+.landing-page .content-block.tabs .nav-tabs li a,
+.landing-page.codeguard .pricing-container .price,
+.landing-page.marketgoo .feature-blocks .block span,
+.landing-page.sitelock .emergency .price{
+  font-weight: 500 !important;
+}
+
+.landing-page.ssl .ssl-benefits i,
+.landing-page.ssl .ideal-for.dv i,
+.landing-page.ssl .features i,
+.landing-page.ssl .ideal-for.ov i,
+.landing-page.sitelock .feature-wrapper i{
+  color: var(--primary) !important;
+}
+.landing-page.ssl .ssl-benefits i,
+.landing-page.ssl .ideal-for.dv i,
+.landing-page.ssl .features i,
+.landing-page.ssl .ideal-for.ov i,
+.landing-page.sitelock .feature-wrapper i{
+  font-size: 35px;
+}
+
+
+
+.content-block.features .feature h4,
+.landing-page .content-block.faq h4,
+.landing-page .tab-content h3,
+.landing-page.sitelock .feature-wrapper .content h4,
+.landing-page.codeguard .faqs h4,
+.landing-page.marketgoo .feature-blocks .block span,
+.landing-page.marketgoo .plan .header h4,
+.landing-page.marketgoo .faqs .faq h4,
+.landing-page.sitelock .emergency .price,
+.store-order-container .payment-term h4{
+  font-size: 18px;
+}
+.content-block.audience h3{
+  font-size: 20px;
+}
+.landing-page .hero h2,
+.landing-page.ox h3,
+.landing-page.sitelock h2,
+.landing-page.marketgoo h3{
+  font-size: 2rem;
+}
+.landing-page.codeguard .faqs h4,
+.landing-page.codeguard .strong-green span,
+.content-block.image-standout .strong-green strong> em,
+.landing-page.marketgoo em{
+  font-style: normal !important;
+}
+.landing-page.codeguard .faqs{
+  text-align: left;
+}
+
+
+
+/*site builder*/
+.landing-page.sitebuilder .bold-line{
+  margin-bottom: 10px;
+}
+.landing-page.sitebuilder .nav-tabs > li > a{
+  text-transform: capitalize;
+  font-size: 15px;
+  color: var(--body-color);
+}
+.landing-page.sitebuilder .features img{
+  max-width: 65px;
+}
+.landing-page.sitebuilder .templates .previews img, .landing-page.sitebuilder .templates .previews .show-more div{
+  border: 1px dashed var(--border-color);
+  border-radius: var(--custom-radius);
+}
+.landing-page.sitebuilder .templates .previews .thumb-wrapper .type-label{
+  top: 18px;
+  right: -36px;
+  font-size: 12px;
+  padding: 1px;
+  transform: rotate(40deg);
+  border: none;
+}
+.landing-page.sitebuilder .pricing-table{
+  border: 1px dashed var(--border-color);
+  border-radius: var(--custom-radius);
+}
+.landing-page.sitebuilder .pricing-table-row .col-primary{
+  font-weight: 400;
+}
+.landing-page.sitebuilder .pricing-table-row.col-heading div{
+  padding: 12px 10px;
+}
+
+.landing-page.sitebuilder .faq-title{
+  padding: 0 0 15px;
+}
+
+
+/*ssl certificate*/
+
+.landing-page .hero h3{
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal !important;
+  font-family: var(--font-family-sans-serif);
+}
+.landing-page.ssl .validation-levels{
+  background-color: var(--gray-light);
+  padding-bottom: 50px;
+}
+.landing-page.ssl .validation-levels h3,
+.landing-page.ssl p.help-me-choose a, .landing-page.ssl a.help-me-choose{
+  color: var(--heading-color);
+}
+.landing-page.ssl .validation-levels .item .btn{
+  background-color: var(--primary);
+}
+
+.landing-page.ssl .what-is-ssl ul{
+  padding-left: 0;
+}
+
+.landing-page.ssl .what-is-ssl ul li{
+  display: flex;
+  align-items: center;
+}
+.landing-page.ssl .what-is-ssl .fas, .landing-page.ssl .what-is-ssl .far{
+  font-size: 15px;
+  color: var(--success);
+}
+
+
+.landing-page.ssl .content-block h4{
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+.landing-page.ssl .detailed-info .card-header{
+  background-color: var(--primary-dark);
+}
+.landing-page.ssl .detailed-info .card-header h4{
+  color: var(--white);
+  font-size: 16px !important;
+}
+.landing-page.ssl .ssl-benefits .row> div[class*=col-]{
+  font-family: var(--font-family-monospace);
+  font-weight: 500;
+  font-size: 14px;
+}
+.landing-page.ssl .standout-1{
+  background-color: var(--primary-dark);
+}
+.landing-page.ssl .logos img{
+  max-height: 35px;
+}
+.landing-page.ssl ul.ssl-certs-all li{
+  border-bottom: 1px dashed var(--border-color);
+}
+.landing-page.ssl .detailed-info .card-body{
+  border: none;
+}
+.landing-page.ssl .detailed-info .card{
+  border: 1px dashed var(--border-color);
+}
+.landing-page.ssl .competitive-upgrade-promo{
+  background-color: var(--primary-dark);
+}
+
+.landing-page.ssl .features{
+  background-color: transparent;
+  padding: 0;
+}
+.landing-page.ssl .features .feature{
+  background-color: var(--gray-light);
+  border: 1px dashed var(--border-color);
+  border-radius: var(--custom-radius);
+  transition: all 0.3s ease-in-out;
+  margin: 0 0 30px 0;
+}
+.landing-page.ssl .features h3{
+  color: var(--heading-color);
+}
+.landing-page.ssl .features h5{
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.landing-page.ssl .features .feature:hover{
+  background-color: transparent;
+}
+.landing-page.ssl .certificate-options,
+.landing-page.ssl .certificate-options.ov,
+.landing-page.ssl .certificate-options.ev{
+  background-color: var(--primary-dark);
+}
+.landing-page.ssl .certificate-options h4,
+.landing-page.ssl .certificate-options h3,
+.landing-page.ssl .certificate-options h5{
+  color: var(--white);
+}
+.landing-page.ssl .certificate-options .btn{
+  background-color: var(--primary);
+  color: var(--white);
+}
+.landing-page.ssl p.help-me-choose a, .landing-page.ssl a.help-me-choose{
+  font-size: 15px;
+}
+.landing-page.ssl .certificate-options a.help-me-choose{
+  color: var(--white);
+}
+/*cpanel*/
+.landing-page.cpanelseo .btn-stretched{
+  padding: 12px 30px;
+}
+.landing-page.cpanelseo .feature-tabs .nav-tabs > li > a.active{
+  color: var(--white) !important;
+}
+.landing-page.cpanelseo .faq .card-header .btn{
+  padding: 0;
+}
+.landing-page.cpanelseo .faq .accordion > .card{
+  border: 1px dashed var(--border-color);
+  margin-bottom: 6px;
+}
+.landing-page.cpanelseo .feature-carousel .carousel-control{
+  font-size: 15px;
+  line-height: 40px;
+}
+.landing-page.cpanelseo .pricing .plan-features{
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 960px){
+  .landing-page.ox .header{
+    padding: 100px 0;
+  }
+}
+@media (min-width: 1200px){
+  .landing-page.cpanelseo .header-img {
+    max-width: 55% !important;
+  }
+}
+.landing-page.ox .features img,
+.landing-page .features .feature .icon img{
+  width: 50px;
+}
+.landing-page .features .feature .icon{
+  line-height: 90px;
+}
+.landing-page.ox .features p{
+  margin-left: 70px;
+}
+.landing-page.ox .features p.title{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.landing-page .features,
+.landing-page.ox .faqs,
+.landing-page.ox .stand-out,
+.landing-page.weebly .faq,
+.landing-page .pricing-item .feature-heading,
+.landing-page.sitelock .plans,
+.landing-page .light-grey-bg,
+.landing-page.codeguard .faqs,
+.landing-page.marketgoo .plan.marketgoo_pro ul,
+.landing-page.marketgoo .feature-wrapper,
+.landing-page.marketgoo .faqs{
+  background-color: var(--gray-light);
+}
+
+.landing-page .features .feature{
+  height: 200px;
+}
+
+.landing-page .pricing-item .price{
+  font-size: 22px;
+  color: var(--primary-dark);
+}
+.landing-page .pricing-item ul li{
+  border-bottom: 1px dashed var(--border-color);
+}
+.landing-page .content-block.pricing .btn-group button.btn{
+  border-color: var(--border-color);
+}
+.landing-page .content-block.pricing .btn-group button.btn.active{
+  background-color: var(--gray-light);
+}
+.landing-page.weebly .weebly-lite-plan{
+  background-color: var(--primary-light);
+  border: none;
+  border-radius: var(--custom-radius);
+}
+.landing-page .pricing-item{
+  border: 1px dashed var(--border-color);
+  border-radius: var(--custom-radius);
+}
+.landing-page .pricing-item .header h5{
+  font-size: 15px;
+  font-weight: normal !important;
+}
+.landing-page.sitelock .plans h2,
+.landing-page.sitelock .emergency h2,
+.landing-page.sitelock .plans h3,
+.landing-page.sitelock .emergency h3{
+  color: var(--heading-color);
+}
+.landing-page.sitelock .plans .plan .header{
+  background: var(--primary-dark);
+  border-top-left-radius: var(--custom-radius);
+  border-top-right-radius: var(--custom-radius);
+}
+.landing-page.sitelock .plans .plan .header h4{
+  color: var(--white);
+}
+.landing-page.sitelock .plans .plan .header p,
+.landing-page.sitelock .feature-wrapper .content p,
+.landing-page.sitelock p{
+  font-size: 15px;
+}
+.landing-page.sitelock .plans .plan{
+  border-radius: var(--custom-radius);
+  box-shadow: 2px 4px 15px rgba(120, 120, 120, 0.10);
+}
+.landing-page.sitelock .plans .plan .btn{
+  background-color: var(--primary);
+}
+.landing-page.sitelock .feature-wrapper .content{
+  margin-left: 65px;
+}
+
+.landing-page.sitelock .feature-wrapper{
+  margin: 0 0 30px 0;
+}
+.landing-page.sitelock .emergency,
+.landing-page .get-started,
+.landing-page.codeguard .order-btn{
+  background-color: var(--primary-dark);
+}
+.landing-page.sitelock .emergency .feature-wrapper .content h4,
+.landing-page.sitelock .emergency h3,
+.landing-page.sitelock .emergency h2.text-danger,
+.landing-page .get-started h2,
+.landing-page .get-started h4{
+  color: var(--white) !important;
+}
+
+.landing-page.mail-services .product-options{
+  background-color: var(--white);
+}
+.landing-page .content-block.text20{
+  margin-top: 0;
+  padding-top: 0;
+}
+.landing-page.mail-services .product-options .item{
+  background-color: var(--gray-light);
+  border-radius: var(--custom-radius);
+}
+.landing-page.mail-services .product-options .price{
+  color: var(--primary);
+  margin: 20px 0;
+}
+.landing-page .product-options .item .btn{
+  padding: 10px 30px;
+  background-color: transparent;
+  border-color: var(--border-color);
+  color: var(--body-color);
+}
+.landing-page.mail-services .product-options .btn-buy{
+  background-color: var(--primary);
+  color: var(--white);
+}
+.landing-page .get-started h4{
+  font-size: 15px;
+}
+.landing-page.mail-services .benefits i{
+  font-size: 13px;
+}
+.content-block.get-started form .row{
+  align-items: center;
+}
+.landing-page .get-started .btn-order-now{
+  background-color: var(--primary);
+  margin-top: 20px !important;
+}
+
+.landing-page.codeguard .irs-with-grid{
+  margin: 15px 0 45px;
+}
+.landing-page.codeguard .irs-bar-edge{
+  margin-left: 0;
+}
+.landing-page.marketgoo .video-banner{
+  background-color: transparent;
+  padding-bottom: 60px;
+}
+.landing-page.marketgoo .hero{
+  padding-bottom: 30px;
+}
+@media (min-width: 768px){
+  .landing-page.marketgoo .feature-blocks .block img {
+    max-width: 100px;
+  }
+  .landing-page.marketgoo .testimonials .user img{
+    max-width: 55px;
+  }
+  .landing-page.marketgoo .testimonials .user .bio{
+    margin-left: 25px;
+  }
+}
+.landing-page.marketgoo .feature-blocks .block p{
+  font-size: 15px;
+}
+
+.content-block .plan-container{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border: 1px dashed var(--border-color);
+  border-radius: var(--custom-radius);
+}
+.landing-page.marketgoo .plan ul li{
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px dashed var(--border-color);
+}
+.landing-page.marketgoo .plan.labels ul li{
+  border-right: 1px dashed var(--border-color);
+}
+.landing-page.marketgoo .plan ul li span{
+  font-weight: normal;
+}
+.landing-page.marketgoo .plan ul{
+  border-top: 1px dashed var(--border-color);
+}
+.landing-page.marketgoo .plan .header {
+  padding: 15px 0;
+}
+.landing-page.marketgoo .plan .btn-signup{
+  padding: 10px 30px;
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.landing-page.marketgoo .testimonials .testimonial{
+  font-family: var(--font-family-sans-serif);
+  font-size: 18px;
+  line-height: 1.75;
+}
+.landing-page.marketgoo .testimonials .user{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-page.cpanelseo .pricing .money-back{
+  font-size: 18px;
+  line-height: 1.75;
+}
+.landing-page.cpanelseo .pricing .plan .plan-name{
+  padding: 0;
+  border-bottom: 0;
+}
+.plan-container .plan ul li img{
+  max-width: 15px;
+}
+.landing-page.marketgoo .hero h2.strong-green{
+  margin-bottom: 0;
+}
+
+.store-order-container form> .row{
+  align-items: center;
+}
+
+
+.landing-page.xovinow .pricing .plan .plan-name{
+  border-bottom: none;
+}
+.landing-page.xovinow .pricing .plan .plan-price{
+  margin-top: 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.landing-page.xovinow .feature-carousel .carousel-control{
+  line-height: 40px;
+}
+.landing-page.xovinow .feature-carousel .carousel-control .fa{
+  font-weight: 500;
+}
+
+.landing-page.xovinow .faq .accordion > .card > .card-header{
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--body-color);
+  padding: 0;
+  margin-bottom: 0;
+}
+.landing-page.xovinow .faq .card-header .btn{
+  color: var(--body-color);
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+}

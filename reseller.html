@@ -62,6 +62,31 @@
         textarea {
             font-family: 'Space Grotesk', sans-serif;
         }
+        
+        .pricing-list {
+  list-style: none; /* Removes default bullet points */
+  padding: 0;       /* Removes default padding */
+  margin: 0;        /* Removes default margin */
+  text-align: left;
+  /* Ensures all text is aligned to the left */
+}
+
+.pricing-list li {
+  display: flex;    /* Flexbox for icon and text alignment */
+  align-items: center; /* Centers the items vertically */
+  margin-bottom: 10px; /* Adds space between list items */
+  padding-left: 40px;  /* Removes padding to the left */
+}
+
+.pricing-list li i {
+  margin-right: 8px; /* Space between the icon and text */
+  color: blue; /* Default color for icons */
+}
+
+.red-icon {
+  color: red; /* Red color for the times-circle icon */
+}
+        
     </style>
 
 </head>
@@ -588,43 +613,6 @@
 
     <section class="blog-1-area about-blog">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-title ">
-                        <h2>Why Choose <span>Slake?</span> </h2>
-                        <img src="asset/img/section-shape.png" alt="section-shape">
-                        <p>Lorem ipsum dolor sittem ametamngcing elit, per sed do eiusmoad teimpor sittem elit inuning
-                            ut sed sittem do eiusmod.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-4 col-12 ">
-                    <div class="single-blog-1">
-                        <img src="asset/img/service/about-icon-11.png" alt="section-icon">
-                        <h2>Free Domain</h2>
-                        <p>After you purchase a hosting plan, you need to set up it before you use it to your website.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 col-12 ">
-                    <div class="single-blog-1">
-                        <img src="asset/img/service/service-icon-4.png" alt="section-icon">
-                        <h2>Control Cpanel</h2>
-                        <p>After you purchase a hosting plan, you need to set up it before you use it to your website.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-4 col-12 ">
-                    <div class="single-blog-1">
-                        <img src="asset/img/service/section-icon-3.png" alt="section-icon">
-                        <h2>24/7 Hour Support</h2>
-                        <p>After you purchase a hosting plan, you need to set up it before you use it to your website.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- BLOG-1  END-->
             <!--PRICING-TABLE -->
             <div class="homepage-2 pricing-table-area">
                 <div class="row">
@@ -636,17 +624,19 @@
                         </div>
                     </div>
                 </div>
-                <!--<div class="row">-->
-                <!--    <div class="col-md-12">-->
-                <!--        <nav class="pricing-tab">-->
-                <!--            <span class="monthly_tab_title">-->
-                <!--                Monthly </span>-->
-                <!--            <span class="pricing-tab-switcher"></span>-->
-                <!--            <span class="annual_tab_title">-->
-                <!--                Annual </span>-->
-                <!--        </nav>-->
-                <!--    </div>-->
-                <!--</div>-->
+                <!--toggle button-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="pricing-tab">
+                            <span class="monthly_tab_title">
+                                Monthly </span>
+                            <span class="pricing-tab-switcher"></span>
+                            <span class="annual_tab_title">
+                                Annual </span>
+                        </nav>
+                    </div>
+                </div>
+                <!--toogle button end-->
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-xs-12">
                         <div class="single-pricing-table">
@@ -655,8 +645,10 @@
                             <div class="pricing-amount">
                                 <div class="annual_price">
                                     <sup><span class="currency"><b>৳</b></span></sup>
-                                    <span class="price"> 4788 </span>
-                                    <span class="subscription"> /Annual </span>
+                                    <span class="price"> 4000 </span>
+                                    <span class="subscription"> /Annual </span><br>
+                                    <span class="subscription" style="color: blue; text-align: left;"><b>15% OFF</b></span><br>
+                                    <span class="subscription" style="color: blue; text-align: left;"><s>4788/Yearly when renew</s></span>
                                 </div>
                                 <div class="monthly_price">
                                     <sup><span class="currency"><b>৳</b></span></sup>
@@ -668,7 +660,7 @@
                                 <ul class="pricing-list">
                                     <li><i class="fas fa-check done-icon" style="color: blue;"></i> 50 GB NVMe SSD
                                         Storage</li>
-                                    <li><i class="fas fa-check done-icon" style="color: blue;"></i> 1000 GB Bandwidth
+                                    <li><i class="fas fa-check done-icon" style="color: blue;"></i> 1024 GB Bandwidth
                                     </li>
                                     <li><i class="fas fa-check done-icon" style="color: blue;"></i> 50 cPanel Accounts
                                     </li>
@@ -703,8 +695,11 @@
                             <div class="pricing-amount">
                                 <div class="annual_price">
                                     <sup><span class="currency"><b>৳</b></span></sup>
-                                    <span class="price"> 7188 </span>
+                                    <span class="price"> 6100</span>
                                     <span class="subscription"> /Annual </span>
+                                    <br>
+                                    <span class="subscription" style="color: blue; text-align: left;"><b>15% OFF</b></span><br>
+                                    <span class="subscription" style="color: blue; text-align: left;"><s>7188/Yearly when renew</s></span>
                                 </div>
                                 <div class="monthly_price">
                                     <sup><span class="currency"><b>৳</b></span></sup>
@@ -731,7 +726,7 @@
                                     <li><i class="fas fa-check done-icon" style="color: blue;"></i> Private Name Servers
                                     </li>
                                 </ul>
-                                <a class="pricing-btn blue-btn" href="#">Buy Package</a>
+                                <a class="pricing-btn blue-btn" href="https://client.trocloudbd.com/index.php?rp=/store/reseller-hosting/pro-plan">Buy Package</a>
                                 <!--<div class="pricing-buttons-container">-->
                                 <!--    <div class="pricing-buttons">-->
                                 <!--        <a class="pricing-btn blue-btn" href="#">Buy Monthly</a>-->
@@ -748,12 +743,15 @@
                             <div class="pricing-amount">
                                 <div class="annual_price">
                                     <sup><span class="currency"><b>৳</b></span></sup>
-                                    <span class="price"> 10788 </span>
+                                    <span class="price"> 9000</span>
                                     <span class="subscription"> /Annual </span>
+                                    <br>
+                                    <span class="subscription" style="color: blue; text-align: left;"><b>15% OFF</b></span><br>
+                                    <span class="subscription" style="color: blue; text-align: left;"><s>10788/Yearly when renew</s></span>
                                 </div>
                                 <div class="monthly_price">
                                     <sup><span class="currency"><b>৳</b></span></sup>
-                                    <span class="price"> 899 </span>
+                                    <span class="price"> 899</span>
                                     <span class="subscription"> /Monthly </span>
                                 </div>
                             </div>
@@ -776,7 +774,7 @@
                                     <li><i class="fas fa-check done-icon" style="color: blue;"></i> Private Name Servers
                                     </li>
                                 </ul>
-                                <a class="pricing-btn blue-btn" href="#">Buy Package</a>
+                                <a class="pricing-btn blue-btn" href="https://client.trocloudbd.com/index.php?rp=/store/reseller-hosting/enterprise-plan">Buy Package</a>
                                 <!--<div class="pricing-buttons-container">-->
                                 <!--    <div class="pricing-buttons">-->
                                 <!--        <a class="pricing-btn blue-btn" href="#">Buy Monthly</a>-->

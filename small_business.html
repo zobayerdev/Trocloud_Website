@@ -62,6 +62,31 @@
       textarea {
          font-family: 'Space Grotesk', sans-serif;
       }
+      
+      .pricing-list {
+  list-style: none; /* Removes default bullet points */
+  padding: 0;       /* Removes default padding */
+  margin: 0;        /* Removes default margin */
+  text-align: left;
+  /* Ensures all text is aligned to the left */
+}
+
+.pricing-list li {
+  display: flex;    /* Flexbox for icon and text alignment */
+  align-items: center; /* Centers the items vertically */
+  margin-bottom: 10px; /* Adds space between list items */
+  padding-left: 40px;  /* Removes padding to the left */
+}
+
+.pricing-list li i {
+  margin-right: 8px; /* Space between the icon and text */
+  color: blue; /* Default color for icons */
+}
+
+.red-icon {
+  color: red; /* Red color for the times-circle icon */
+}
+      
    </style>
 
 </head>
@@ -578,7 +603,7 @@
                          </span>
                        </div>
                        <div class="pricing-content">
-                           <ul>
+                           <ul class="pricing-list">
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 5 GB NVMe SSD Storage</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> Super Fast Website Speed</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 1 Domain Hosted</li>
@@ -599,7 +624,7 @@
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 24/7 WhatsApp Support</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 24/7 Live Call Support</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> Priority Website Support</li>
-                              <li><i class="fas fa-times-circle red-icon" style="color: red;"></i> Free Domain Not Available</li>
+                              <li><i class="fa fa-asterisk" aria-hidden="true" style="color: red;"></i> Free Domain Not Available</li>
                            </ul>
                            <a class="pricing-btn blue-btn" href="https://client.trocloudbd.com/index.php?rp=/store/small-business/basic-plan">Select Plan</a>
                        </div>
@@ -619,7 +644,7 @@
                          </span>
                        </div>
                        <div class="pricing-content">
-                           <ul>
+                           <ul class="pricing-list">
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 10 GB NVMe SSD Storage</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> Super Fast Website Speed</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 2 Domain Hosted</li>
@@ -640,7 +665,7 @@
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 24/7 WhatsApp Support</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 24/7 Live Call Support</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> Priority Website Support</li>
-                              <li><i class="fas fa-times-circle red-icon" style="color: red;"></i> Free Domain Not Available</li>
+                              <li><i class="fa fa-asterisk" aria-hidden="true" style="color: red;"></i> Free Domain Not Available</li>
                            </ul>
                            <a class="pricing-btn blue-btn" href="https://client.trocloudbd.com/index.php?rp=/store/small-business/starter-plan">Select Plan</a>
                        </div>
@@ -660,7 +685,7 @@
                          </span>
                        </div>
                        <div class="pricing-content">
-                           <ul>
+                           <ul class="pricing-list">
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 15 GB NVMe SSD Storage</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> Super Fast Website Speed</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 1 Domain Hosted</li>
@@ -681,7 +706,7 @@
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 24/7 WhatsApp Support</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> 24/7 Live Call Support</li>
                               <li><i class="fas fa-check done-icon" style="color: blue;"></i> Priority Website Support</li>
-                              <li><i class="fas fa-check done-icon" style="color: blue;"></i> .shop Domain is Free (1 years)</li>
+                              <li><i class="fa fa-asterisk" aria-hidden="true" style="color: red;"></i> .shop Domain is Free (1 years)</li>
                            </ul>
                            <a class="pricing-btn blue-btn" href="https://client.trocloudbd.com/index.php?rp=/store/small-business/pro-plan">Select Plan</a>
                        </div>

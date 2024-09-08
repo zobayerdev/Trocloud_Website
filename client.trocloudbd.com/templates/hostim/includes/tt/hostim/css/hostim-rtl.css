@@ -1,0 +1,151 @@
+
+.list-inline-item:not(:last-child){
+  margin-right: auto;
+}
+.popover-user-notifications ul li .message{
+  margin-right: 40px;
+  margin-left: auto;
+}
+
+.popover-user-notifications ul li i.far, .popover-user-notifications ul li i.fas{
+  float: right;
+}
+
+/*navbar*/
+.tt-main-header .pr-4, .tt-main-header .px-4{
+  padding-right: initial !important;
+}
+.tt-header .tt-main-header ul li a.pr-4{
+  padding-left: 1rem !important;
+}
+.tt-main-header #Primary_Navbar-Store .dropdown-menu li a:before{
+  right: -10px;
+}
+@media (min-width: 320px) and (max-width: 1199px){
+  .offcanvas-collapse{
+    left: auto;
+    right: 0;
+    transform: translatex(150%);
+  }
+}
+
+/*hero*/
+.tt-animation-icon-img{
+  right: auto;
+  left: 26%;
+}
+@media (max-width: 1520px){
+  .tt-animation-icon-img {
+    right: 40% !important;
+    top: 18%;
+  }
+}
+
+/*data table*/
+.dataTables_length label .form-control{
+  padding: 0.25rem 0.5rem 0.25rem 1.5rem;
+}
+.tiles .tile i{
+  right: auto;
+  left: 15px;
+}
+.carousel-item{
+  margin-right: -100%;
+  margin-left: auto;
+  float: left;
+}
+.tt-secondary-list li.tt-nav-item {
+  padding-left: 1rem;
+  padding-right: initial;
+}
+
+.modal-localisation .item-selector .item{
+  text-align: right;
+}
+.modal-localisation .modal-body{
+  background-position: left bottom;
+}
+.tt-group-features-list li i{
+  margin-left: 8px;
+  margin-right: auto;
+}
+#domainForm .btn-group.tt-button-group .btn-group .dropdown-menu {
+  padding: 0;
+  left: 0 !important;
+  right: auto;
+}
+
+.tt-group-features-list li{
+  width: 31% !important;
+}
+/*breadcrumb*/
+.tt-breadcrumb{
+  left: 15px;
+  right: auto;
+}
+.tt-triangle-right{
+  right: -59px;
+  left: auto;
+  border-right: 60px solid transparent;
+}
+/*login registration*/
+#registration .prepend-icon .field{
+  padding-right: 36px;
+  padding-left: auto;
+}
+.btn-facebook {
+  color: #fff !important;
+  background-color: #4267b2 !important;
+  border-color: rgba(0,0,0,.2) !important;
+}
+/*news*/
+.tt-news-wrap .tt-news-single{
+  border-right: 2px solid transparent;
+  border-left: none !important;
+}
+.tt-news-wrap .tt-news-single:hover{
+  border-right: 2px solid var(--primary) !important;
+}
+.tt-kb-search>*+* {
+  margin-right: 15px;
+}
+/*store*/
+.landing-page.ssl .what-is-ssl .fas, .landing-page.ssl .what-is-ssl .far{
+  padding-right: auto;
+  padding-left: 15px;
+}
+.landing-page.ssl .what-is-ssl ul{
+  padding-right: 0;
+}
+.landing-page.cpanelseo .header-img{
+  float: left !important;
+}
+.landing-page.codeguard .pricing-container{
+  float: right !important;
+}
+
+
+/*sidebar*/
+.sidebar .list-group-item {
+  border-right: 2px solid transparent !important;
+  border-left: none;
+}
+.sidebar .list-group-item.active,
+.sidebar .list-group-item.active:focus,
+.sidebar .list-group-item.active:hover{
+  border-right-color: var(--primary) !important;
+}
+
+
+/*store*/
+.landing-page.sitebuilder .intro h2,
+.landing-page.ox .pricing table tr td:first-child{
+  text-align: right !important;
+}
+.landing-page.ox .features img{
+  float: right !important;
+}
+.landing-page.ox .features p{
+  margin-left: auto !important;
+  margin-right: 70px !important;
+}
