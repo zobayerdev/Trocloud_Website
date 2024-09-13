@@ -1,8 +1,0 @@
-{
-    "require": {
-        "mollie/mollie-api-php": "2.44"
-    },
-    "provide": {
-        "composer/ca-bundle": "*"
-    }
-}
